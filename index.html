@@ -469,16 +469,22 @@
         </div>
 
         <div class="footer-mail">
-          <p class="footer-join">Подпишитесь на рассылку</p>
-          <input type="email" class="footer-mail-input" placeholder="E-mail" />
-          <button type="submit" class="footer-btn-join">
-            Подписаться
-            <span
-              ><svg class="icon-send" width="24" height="24">
-                <use href="./img/icon/icons.svg#icon-send"></use>
-              </svg>
-            </span>
-          </button>
+          <form>
+            <p class="footer-join">Подпишитесь на рассылку</p>
+            <input
+              type="email"
+              class="footer-mail-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-btn-join">
+              Подписаться
+              <span
+                ><svg class="icon-send" width="24" height="24">
+                  <use href="./img/icon/icons.svg#icon-send"></use>
+                </svg>
+              </span>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -568,7 +574,10 @@
             id="privacy"
           />
           <label for="privacy" class="check-text"
-            >Соглашаюсь с рассылкой и принимаю Условия договора</label
+            >Соглашаюсь с рассылкой и принимаю
+            <span>
+              <a href="" class="privacy-label">Условия договора</a></span
+            ></label
           >
           <button type="submit" class="modal-btn">Отправить</button>
         </form>
