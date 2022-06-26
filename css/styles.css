@@ -1025,7 +1025,7 @@ button {
 }
 
 .modal-field {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .modal-check {
@@ -1049,18 +1049,14 @@ button {
 }
 
 .privacy-label {
-  color: #757575;
+  color: #2196f3;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 3px;
-}
-
-.privacy-label:hover,
-.privacy-label:focus {
-  color: #2196f3;
+  text-decoration: underline;
 }
 
 .modal-btn {
